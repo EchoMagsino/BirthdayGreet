@@ -83,8 +83,9 @@ h1::after {
 
 
 section {
+    position: center;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 60vw;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
@@ -94,7 +95,7 @@ section {
 
 section:target {
     display: block;
-   
+  
 }
 
 .from {
@@ -106,8 +107,5 @@ section:target {
 }
 
 .vid {
-    width: 550px;
-    height: auto;
-    position: center;
-
+    max-width: 50vw;
 }
