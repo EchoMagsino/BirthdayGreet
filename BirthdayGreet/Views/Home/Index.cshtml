@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Card</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card" id="greeting-card">
+        <h1>Happy Birthday!</h1>
+
+        <p class="message">
+            Wishing you all the happiness and joy on your special day!
+        </p>
+
+        <div class="card-links">
+            <a href="#send" class="send-link">Read message</a>
+        </div>
+
+        <div class="card-links">
+            <a href="#video-greet" class="video-link">Video Greet</a>
+        </div>
+    </div>
+
+    <section id="send">
+        <h2></h2>
+        <p class="message">
+            Happy birthday babe, sorry ito lang afford kong gift sa'yo haha. So ayun ingat ka palagi,
+          sana maging masaya ka sa araw ng birthday mo at sana maging masaya ka palagi sa relationship natin. I love you babe.
+        
+        </p>
+        <p class="from">Love, Echo</p>
+    </section>
+
+    <section id="video-greet">
+        
+        <video class="vid" controls="controls">
+            <source src="~/videogreet/win_20250531_21_16_53_pro.mp4" type="video/mp4" />
+        </video>
+    </section>
+
+  
+
+</body>
+</html>
+
