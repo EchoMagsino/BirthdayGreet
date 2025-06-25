@@ -24,7 +24,19 @@ body {
     background-color: lightblue;
 }
 
+a, button {
+    text-decoration: none;
+    text-align: center;
+    position: center;
+}
+
+button:hover {
+    background-color: khaki;
+    transition: 0.5s ease;
+}
+
 .card {
+    display: none;
     background-color: white;
     max-width: 400px;
     padding: 40px;
@@ -33,6 +45,10 @@ body {
     box-shadow: 0 4px 8px gray;
     transition: transform 0.3s, background-color 0.3s ease
 }
+
+    .card:target {
+        display: block;
+    }
 
     .card:hover {
         background-color: khaki;
@@ -62,6 +78,7 @@ h1::after {
     .card-links a {
         text-decoration: none;
         font-size: 1em;
+        width: 148px;
         padding: 10px 20px;
         border-radius: 5px;
         color: white;
@@ -108,4 +125,16 @@ section:target {
 
 .vid {
     max-width: 50vw;
+    border-radius: 5px;
+}
+
+.gif {
+    margin-top: 0;
+    width: 30vh;
+}
+
+.pictures {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
 }
