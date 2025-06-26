@@ -12,9 +12,17 @@
 </head>
 <body>
     <p>Click the box to reveal the present, and use it as a back button.</p>
-    <a href="#greeting-card"><img class="gif" src="~/photo/gift-box-dribbble-ezgif.com-gif-maker.gif" /> </a>
+    
+    <a href="#greeting-card" onclick="document.getElementById('myAudio').play();">
+        <img class="gif" src="~/photo/gift-box-dribbble-ezgif.com-gif-maker.gif" />
+    </a>
+
+    <audio id="myAudio">
+        <source src="~/song/happy-birthday-254480.mp3" type="audio/mpeg" />
+    </audio>
 
     <div class="card" id="greeting-card">
+
 
         <h1>Happy Birthday Babe!</h1>
 
@@ -29,6 +37,8 @@
         <div class="card-links">
             <a href="#Memories" class="Photos">Our Memories</a>
         </div>
+       
+
         
 
     </div>

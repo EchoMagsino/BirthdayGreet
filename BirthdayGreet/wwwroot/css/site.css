@@ -48,6 +48,7 @@ button:hover {
 
     .card:target {
         display: block;
+
     }
 
     .card:hover {
@@ -132,6 +133,7 @@ section:target {
     margin-top: 0;
     width: 30vh;
 }
+
 
 .pictures {
     width: 10vw;
