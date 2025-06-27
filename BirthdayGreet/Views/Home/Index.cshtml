@@ -13,7 +13,7 @@
 <body>
     <p>Click the box to reveal the present, and use it as a back button.</p>
     
-    <a href="#greeting-card" onclick="document.getElementById('myAudio').play();">
+    <a href="#greeting-card" onclick="playOnce();">
         <img class="gif" src="~/photo/gift-box-dribbble-ezgif.com-gif-maker.gif" />
     </a>
 
@@ -38,8 +38,17 @@
             <a href="#Memories" class="Photos">Our Memories</a>
         </div>
        
+        <div class="card-links">
+            <a href="#Candle" class="Candle">Birthday Cake</a>
+        </div>
+        <br>
 
-        
+        <button id="wishButton" style="background-color: transparent; border: none; color: transparent; margin-top: 15px">
+            See My Wish
+        </button>
+
+
+
 
     </div>
 
@@ -92,8 +101,21 @@
 
     </section>
 
+    <section id="Candle">
+        <div class="cake-container">
+            <img for="fire" class="fire" src="~/photo/fire-ezgif.com-gif-maker.gif" />
+            <img class="kandila" src="~/photo/candle-removebg-preview.png" />
+            <img class="cake" src="~/photo/cake.png" />
+        </div>
+        
+
+        <textarea id="text-area" placeholder="Type your wish babe!"></textarea>
+        <button id="fire">send</button>
+    </section>
+
     <br>
   
+
 
 </body>
 </html>

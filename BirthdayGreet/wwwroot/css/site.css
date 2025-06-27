@@ -140,3 +140,30 @@ section:target {
     height: 10vw;
     object-fit: cover;
 }
+
+.cake-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.cake {
+    display: block;
+    max-width: 35vw;
+}
+
+.kandila {
+    position: absolute;
+    top: -10px; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7vw; /* adjust candle size as needed */
+}
+
+.fire {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1vw;
+}
