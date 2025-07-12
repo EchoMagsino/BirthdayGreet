@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
         const wish = textArea.value;
         localStorage.setItem("userWish", wish);  // This saves it locally
-        alert("Your wish has been saved! now blow me(I mean your candle) 🎉");
+        alert("Your wish has been saved! now blow your cake(I mean your candle) 🎉");
     });
 });
 
