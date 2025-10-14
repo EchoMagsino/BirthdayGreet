@@ -1,6 +1,6 @@
 # Birthday Greeting site
 
-A simple birthday greeting website, it includes function like video greeting, where you store you video greetins, cake and candle that you can wish. 
+A simple birthday greeting website inspired by freeCodeCamp, it includes function like video greeting, where you store you video greetins, cake and candle that you can wish. 
 
 # How to use it
 
